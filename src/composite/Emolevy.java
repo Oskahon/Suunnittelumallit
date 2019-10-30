@@ -8,12 +8,6 @@ public class Emolevy implements Komponentti{
 	private List<Komponentti> komponentit = new ArrayList<>();
 	private double hinta = 100;
 	
-	public Emolevy(int muistipiirit) {
-		for (int i = 0; i < muistipiirit; i++) {
-		lisaa(new Muistipiiri());
-		}
-	}
-
 	@Override
 	public double getHinta() {
 		double kokonaisHinta = hinta;
