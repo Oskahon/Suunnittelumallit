@@ -1,6 +1,6 @@
 package singleton;
 
-public class AdidasTehdas extends VaateTehdas{
+public class AdidasTehdas implements VaateTehdas{
 
 	private AdidasTehdas() {}
 	

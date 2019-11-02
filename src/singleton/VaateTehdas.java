@@ -1,6 +1,6 @@
 package singleton;
 
-public abstract class VaateTehdas {
+public interface VaateTehdas {
 	
 	public abstract Hattu createHattu();
 	public abstract Paita createPaita();

@@ -1,6 +1,6 @@
 package singleton;
 
-public class BossTehdas extends VaateTehdas{
+public class BossTehdas implements VaateTehdas{
 
 	private BossTehdas() {}
 	
