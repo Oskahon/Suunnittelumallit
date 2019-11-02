@@ -15,7 +15,7 @@ public class Koodari {
 	}
 	
 	public void esitteleVaatteet() {
-		System.out.println("Päässäni on "+hattu+", paita on "+paita+", housut on "+housut+" ja jalassa on "+kengät+".");
+		System.out.println(this + ": Päässäni on "+hattu+", paita on "+paita+", housut on "+housut+" ja jalassa on "+kengät+".");
 	}
 	
 }
