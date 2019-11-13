@@ -6,7 +6,7 @@ public class Main {
 
 		Game diceGame = DiceGame.getInstance();
 		
-		diceGame.playOneGame(3);
+		diceGame.playOneGame(4);
 		
 	}
 

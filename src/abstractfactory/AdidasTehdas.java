@@ -2,10 +2,6 @@ package abstractfactory;
 
 public class AdidasTehdas implements VaateTehdas{
 
-	public AdidasTehdas() {
-		
-	}
-	
 	public Hattu createHattu() {
 		return new AdidasHattu();
 	}

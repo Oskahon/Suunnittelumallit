@@ -24,9 +24,6 @@ public class DiceGame extends Game{
 		rolls = new int[super.playersCount];
 		highestRoller = 0;
 		ties = 0;
-		for (int i = 0; i < super.playersCount; i++) {
-			rolls[i] = 0;
-		}
 	}
 
 	@Override
