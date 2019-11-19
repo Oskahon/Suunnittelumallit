@@ -13,14 +13,14 @@ public class Main {
 		list.add("E");		list.add("F");
 		list.add("G");		list.add("H");
 
-		ListConverter converter = new First();
-		System.out.println(converter.listToString(list));
+		ListPrinter printer = new ListPrinter(new First());
+		printer.printList(list);
 		
-		converter = new Second();
-		System.out.println(converter.listToString(list));
-		
-		converter = new Third();
-		System.out.println(converter.listToString(list));
+		printer.setStrategy(new Second());
+		printer.printList(list);
+
+		printer.setStrategy(new Third());
+		printer.printList(list);
 		
 	}
 
