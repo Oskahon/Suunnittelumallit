@@ -27,6 +27,10 @@ public class Main {
 		for(Image i:kuvat) {
 			i.displayImage();
 		}
+	
+		for(Image i:kuvat) {
+			i.displayImage();
+		}
 		
 	}
 
